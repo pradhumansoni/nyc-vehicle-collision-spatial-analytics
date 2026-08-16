@@ -39,9 +39,11 @@ CREATE TABLE staging.raw_collisions (
     vehicle_type_code_4             TEXT,
     vehicle_type_code_5             TEXT
 );
-#----------------------------------------
-# Test the Table Creation
-#----------------------------------------
+
+
+-- ========================================
+-- Test the Table Creation
+-- ========================================
 select count(*)
 from staging.raw_collisions --0
 
@@ -53,3 +55,12 @@ FROM information_schema.columns
 WHERE table_schema = 'staging'
   AND table_name = 'raw_collisions'
 ORDER BY ordinal_position;
+
+
+-- ==============================================================
+-- Checking The Successful copy of csv into PostgreSQL database
+-- ==============================================================
+
+SELECT *
+from staging.raw_collisions
+LIMIT 5;
