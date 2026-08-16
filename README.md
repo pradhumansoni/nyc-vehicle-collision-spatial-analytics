@@ -206,8 +206,8 @@ nyc_collision_analytics/
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/<your-username>/nyc_collision_analytics.git
-   cd nyc_collision_analytics
+   git clone https://github.com/pradhumansoni/nyc-vehicle-collision-spatial-analytics.git
+   cd nyc-vehicle-collision-spatial-analytics
    ```
 2. **Start PostgreSQL + PostGIS**:
    ```bash
