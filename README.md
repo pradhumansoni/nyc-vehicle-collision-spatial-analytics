@@ -7,6 +7,15 @@
 
 An end-to-end analytics pipeline for New York City's Motor Vehicle Collision data — from raw, messy CSV to a fully normalized (3NF) PostgreSQL database, SQL-driven analytics, and interactive spatial visualizations. The project mirrors how a real banking/analytics data pipeline is built: clean once in Pandas, model and query at scale in SQL, and visualize only the aggregated results in Python.
 
+## 🗺️ Interactive Spatial Analysis
+
+Explore the interactive maps directly in your browser:
+
+- [📍 Collision Location Heatmap](https://pradhumansoni.github.io/nyc-vehicle-collision-spatial-analytics/collision_location_heatmap.html)
+- [🗺️ ZIP Code Collision Choropleth](https://pradhumansoni.github.io/nyc-vehicle-collision-spatial-analytics/zip_collision_choropleth.html)
+- [🏙️ Borough Collision Choropleth](https://pradhumansoni.github.io/nyc-vehicle-collision-spatial-analytics/borough_collision_choropleth.html)
+
+- 
 ---
 
 ## 📌 Table of Contents
