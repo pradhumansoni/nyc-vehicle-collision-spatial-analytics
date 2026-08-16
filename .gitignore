@@ -25,3 +25,4 @@ Thumbs.db
 
 # Dataset
 data/nyc_crash_data.csv
+data/nyc_crash_data_cleaned.csv
